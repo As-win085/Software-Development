@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Netflix Clone</title>
+    <link rel = "stylesheet" href="netflex.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- You can include a font from Google Fonts if you want -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <!-- Replace with the Netflix logo or a text placeholder -->
+                <img src="https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production/consent/87b6a5c0-0104-4e96-a291-092c11350111/01938dc4-59b3-7bbc-b635-c4131030e85f/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" class="logo" />
+            </div>
+            <div class="top-btn">
+                <select class="sel-btn">
+                    <option class="opt-btn">English</option>
+                    <option class="opt-btn">Hindi</option>
+                </select>
+                <button class="login-btn">Sign In</button>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="sec1"></div>
+        <div class="hero-content">
+            <h2>Unlimited movies, TV shows, and more.</h2>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+    </section>
+
+    <!-- Content Section (Examples of Movie Thumbnails) -->
+    <section class="movies">
+        <div class="container movies-container">
+            <h3>Popular on Netflix</h3>
+            <div class="movie-grid">
+                <!-- Repeat these movie items as needed -->
+                <div class="movie-item">
+                    <img src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/1Xnoa4YyyF--XrWl_Rtf3uHztec/AAAABQdQQBBMe3I0t5lznhXm6l5sp2eG1jWabNKopu9qGdGIgmM_K29VeVQnHpQ2tzDGCNwb8wnjT9mAOqNM56DnGNuVoHcZmuMdyNAIpH7rvf59Y4gwaWb53VJFdnfS1JUACEcbKNQG4-2GuKdpNLli-9BKsaEfa1iTpTBfmX0SGsyba5Wtz4AIQg2RCShOSKqzdG4VMYswjnjdjtlB.jpg?r=8cf" alt="Movie 1">
+                </div>
+                <div class="movie-item">
+                    <img src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/1Xnoa4YyyF--XrWl_Rtf3uHztec/AAAABS14GbMQTH4pIyOdAkf9nxeABNLyEV4l9-TP0zMME4Ibp78XUNJCwz4I7dx6ptO1ARh_qhG7V6HvtDo3y-JxeVY5KBU_s46RuJ4d6ILfR5_7rOejWW2ncUWD0LNhV3zRu6vEGxYEX17rzHyU0ic4.jpg?r=ada" alt="Movie 2">
+                </div>
+                <div class="movie-item">
+                    <img src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/1Xnoa4YyyF--XrWl_Rtf3uHztec/AAAABSQ3BWYmXcAuLLHYbEEDlZ_XqFpaSoF_0fLv-EaAywmTC2zk0bm0jLWcVO21zhxlDGT2zA-gg9cmQarmWb4Jp5CvfGJnioZy-1BZND1V4cl5XkMkbIWgWIyJUh_UiGgn4yivzhGs_0XDOoM3Ir4H.jpg?r=82c" alt="Movie 3">
+                </div>
+                <div class="movie-item">
+                    <img src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/1Xnoa4YyyF--XrWl_Rtf3uHztec/AAAABWbzzEmzfkbbOYtqhO4dvi5Nf_c_1rySfkD5xokwGV4Zm5nRHI6X-_dOYlwN72wBu3uzvx28PmhOlWRST_7y8WIu4c9Tg5keNjgahAcNQCbN53vrToC8hC9CNf_QUBFpQxZIIEjDqJcXMGbt3LLy.jpg?r=e0b" alt="Movie 4">
+                </div>
+                <div class="movie-item">
+                    <img src="https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/1Xnoa4YyyF--XrWl_Rtf3uHztec/AAAABWiqKG0gpIUymWuuYS21f--ENpDN_qyqV0DHzvpKQRptkydSohVxN-ZyQKhCtsGnB6ww0b9K-u2DwfxXiFdAeHSNTRPkxfcSlVh5p6c2qXE78az1kPeB-SYcDQR7ffHfMTXYn0FUGUy5WAxstvgl-qj4IztIMvPEplf9fJkxhis_JgMhfQbCdZRCY3N-sKmQyPNFJunoNb1sWbpG.jpg?r=734" alt="Movie 4">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="bottom-email">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="email-input">
+                    <input type="email" class="form-control input" placeholder="Email address" />
+                    <button class="btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="QA">
+        <p class="p1">Questtions ? Call <span class="sp1">000-800-919-1743</span></p>
+        <div class="qa-ul">
+            <div>
+                <a href="#" class="sp1">FAQ</a><br>
+                <a href="#" class="sp1">Investor Relations</a><br>
+                <a href="#" class="sp1">Privacy</a><br>
+                <a href="#" class="sp1">Speed Test</a><br>
+            </div>
+            <div>
+                <a href="#" class="sp1">Help Centre</a><br>
+                <a href="#" class="sp1">Jobs</a><br>
+                <a href="#" class="sp1">Cookie Preferences</a><br>
+                <a href="#" class="sp1">Legal Notices</a><br>
+            </div>
+            <div>
+                <a href="#" class="sp1">Account</a><br>
+                <a href="#" class="sp1">Ways to Watch</a><br>
+                <a href="#" class="sp1">Corporate Information</a><br>
+                <a href="#" class="sp1">Only on Netflix</a>
+            </div>
+            <div>
+                <a href="#" class="sp1">Media Centre</a><br>
+                <a href="#" class="sp1">Terms of Use</a><br>
+                <a href="#" class="sp1">Contact Us</a><br>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Netflix Clone. This is a demo layout.</p>
+        </div>
+    </footer>
+</body>
+
+                                                                  </html>
