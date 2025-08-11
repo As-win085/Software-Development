@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+header {
+    background: #141414;
+    padding: 20px 0;
+
+    width: 100%;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8em;
+    color: #e50914;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+
+}
+
+
+.hero {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080?text=Netflix+Background') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #e50914;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #f40612;
+}
+
+
+.movies {
+    padding: 60px 0;
+    background: #141414;
+}
+
+.movies-container h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.movie-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #000;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+.top-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.sel-btn {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    font-size: 1rem;
+    padding: 10px;
+    width: 110px;
+    border-radius: 30px;
+}
+
+.login-btn {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 30px;
+    width: 110px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 5px;
+
+}
+
+.login-btn:hover {
+    background: #e50914;
+    border-color: #e50914;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+}
+
+.sec1 {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/362e334f-424b-4da1-975a-a7ea805d8fbe/web_tall_panel/IN-en-20250616-TRIFECTA-perspective_bbf67664-2090-449c-9c01-eb9d78104e3c_large.jpg");
+    background-size: cover;
+    height: 100vh;
+    filter: blur(5px);
+    position: absolute;
+    width: 85%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.hero-content {
+    position: relative;
+    margin-top: 400px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    transform: translateY(-50%);
+    padding: 20px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.QA {
+    padding: 5%;
+    color: grey;
+
+}
+
+.sp1 {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.qa-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.p1 {
+    margin-bottom: 30px;
+}
+
+.bottom-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.email-input {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.input {
+    background-color: black;
+    border-width: 1px;
+    border-color: #ffffff;
+    height: 50px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: solid;
+    color: #ffffff;
+}
+
+.btn {
+    border-radius: 5px;
+    border-style: none;
+
+    overflow: hidden;
+
+  }
