@@ -1,1 +1,1 @@
-
+Weather Cast is a responsive weather dashboard built with HTML, CSS, Javascript. It shows real-time weather and 5 day forecast for any city using the OpenWeatherMap API, with a clean and user-friendly interface. link: - weathercast33.ccbp.tech
