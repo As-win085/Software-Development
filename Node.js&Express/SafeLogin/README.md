@@ -128,10 +128,10 @@ Responses:
 
 
 project/
-│── app.js         # Main server file
-│── userData.db    # SQLite database file
-│── package.json   # Project dependencies
-│── .gitignore     # Git ignore rules
+│── app.js         
+│── userData.db   
+│── package.json   
+│── .gitignore     
 └── README.md      
 
 
