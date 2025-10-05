@@ -1,0 +1,12 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This repository contains a series of software development projects covering web applications, data-driven dashboards, and AI-powered tools. It demonstrates skills in Python, Flask, Node, Express, React, and SQL with a focus on building functional, scalable, and maintainable software solutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
